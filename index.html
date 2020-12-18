@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"  crossorigin="anonymous"/>
+    <title>Music Player</title>
+</head>
+<body>
+
+
+<div class="music-app">
+
+
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-headphones-alt fa-2x"></i>
+            <h3>MUSIC</h3>
+         </div>
+
+    </div>
+
+
+    <div class="music-body">
+
+        <div class="left">
+
+            <div class="audio-control">
+                <audio class="audio-player"></audio>
+                <div class="cover-image"> 
+                    <img src="cover-photo.jpg" id="cover-image" width="200px" height="200px" alt="">
+                </div>
+             
+                 <div class="control">
+                    <i id="previous" class="fas fa-step-backward "></i>
+                    <img class="playbtn" src="https://img.icons8.com/material-outlined/30/ffffff/play-button-circled--v1.png"/>
+                    <i id="next" class="fas fa-step-forward "></i>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+             <button class="play-all">Play All</button>
+           
+            <div class="audio-lists">
+
+                <ul class="songs-name" >
+                </ul>
+
+            </div>
+
+         </div>
+    </div>
+
+
+
+</div>
+
+
+<div class="music-progress">
+
+    <div class="progress">
+            <p id="current-time">0:00</p>
+            <input type="range" min="0" max="100" value="0" name="" id="progress-bar">
+            <p id="audio-length">0:00</p>
+     </div>
+
+    <div class="volume">
+        <img class="volume-icon" src="https://img.icons8.com/ios-filled/20/ffffff/high-volume.png"/>
+            <input type="range" min="0" max="100" value="100" name="" id="volume-control">
+
+    </div>
+
+ 
+
+</div>
+
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
