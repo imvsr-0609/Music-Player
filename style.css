@@ -263,9 +263,9 @@ img{
        
         
     }
-.music-progress{
-  margin-bottom: 50px;
-}
+     body{
+       height: calc(100vh - 30px);
+    }
     .audio-lists{
      
         justify-content: space-around;
