@@ -263,7 +263,9 @@ img{
        
         
     }
-
+.music-progress{
+  margin-bottom: 10%;
+}
     .audio-lists{
      
         justify-content: space-around;
